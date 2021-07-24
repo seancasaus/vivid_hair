@@ -439,6 +439,77 @@ ul {
   text-align: center;
 }
 
+.servicesContent {
+  margin: auto;
+  font-size: 1.25em;
+  color: #695578;
+  width: 25%;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+.servicesContent h1 {
+  font-size: 48px;
+  margin-bottom: 0 !important;
+  margin: auto;
+  font-weight: normal;
+  font-style: normal; 
+  color: #43293d;
+  animation-name: colorShift;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.servicePrice {
+  width: 100%;
+  margin: auto;
+}
+
+#service-price {
+  opacity: 0.75;
+}
+
+.servicePrice h2{
+  margin: auto;
+  font-size: 3em;
+  color: #43293d;
+}
+
+.servicePrice p {
+  margin: auto;
+  font-size: 2em;
+  color: #43293d;
+}
+
+.servicesContent .service:hover {
+  color: #ffffff;
+  cursor: default;
+  font-size: 1.3em;
+}
+
+@media screen and (max-width: 1300px) {
+  .servicesContent {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .servicesContent {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .servicesContent {
+    width: 100%;
+  }
+}
+
 /*##########END SERVICES STYLES##########*/
 
 /*##########CLIENTS STYLES##########*/
